@@ -1,1 +1,0 @@
-SemanticKernel AI Chat Completion
