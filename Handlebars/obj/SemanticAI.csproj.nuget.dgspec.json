@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/talha-naeem/Documents/LLM Work/SemanticAI/SemanticAI.csproj": {}
+    "/home/talha-naeem/Documents/LLM Work/handlebarstemplate/Handlebars/SemanticAI.csproj": {}
   },
   "projects": {
-    "/home/talha-naeem/Documents/LLM Work/SemanticAI/SemanticAI.csproj": {
+    "/home/talha-naeem/Documents/LLM Work/handlebarstemplate/Handlebars/SemanticAI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/talha-naeem/Documents/LLM Work/SemanticAI/SemanticAI.csproj",
+        "projectUniqueName": "/home/talha-naeem/Documents/LLM Work/handlebarstemplate/Handlebars/SemanticAI.csproj",
         "projectName": "SemanticAI",
-        "projectPath": "/home/talha-naeem/Documents/LLM Work/SemanticAI/SemanticAI.csproj",
+        "projectPath": "/home/talha-naeem/Documents/LLM Work/handlebarstemplate/Handlebars/SemanticAI.csproj",
         "packagesPath": "/home/talha-naeem/.nuget/packages/",
-        "outputPath": "/home/talha-naeem/Documents/LLM Work/SemanticAI/obj/",
+        "outputPath": "/home/talha-naeem/Documents/LLM Work/handlebarstemplate/Handlebars/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/talha-naeem/.nuget/NuGet/NuGet.Config"
@@ -38,9 +38,37 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.SemanticKernel": {
               "target": "Package",
-              "version": "[1.30.0, )"
+              "version": "[1.48.0, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.AzureOpenAI": {
+              "target": "Package",
+              "version": "[1.48.0, )"
+            },
+            "Microsoft.SemanticKernel.PromptTemplates.Handlebars": {
+              "target": "Package",
+              "version": "[1.48.0, )"
             }
           },
           "imports": [
