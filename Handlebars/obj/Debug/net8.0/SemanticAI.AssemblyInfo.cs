@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SemanticAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8405e2c5a31e48adbf493ec4251c9425b1265de1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff91402cf5efde67a4e1da4e9bf0146787119e9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SemanticAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SemanticAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
